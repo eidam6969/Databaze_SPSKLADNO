@@ -1,0 +1,1 @@
+# Databaze_SPSKLADNO
