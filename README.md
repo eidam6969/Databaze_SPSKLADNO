@@ -1,4 +1,4 @@
 # Databaze_SPSKLADNO
 
 
-cus
+ahoj
