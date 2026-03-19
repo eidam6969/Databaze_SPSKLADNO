@@ -1,0 +1,17 @@
+<html lang ="cs">
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}">
+    </head>
+    <body>
+        <h1>Nahrát TXT Soubor</h1>
+        <form method="post" enctype="multipart/form-data">
+            <label for="file">Vyber TXT soubor:</label>
+            <input type="file" name="file" accept=".txt" required>
+            <button type="submit">Odeslat</button>
+        </form>
+        {% if content %}
+            <h2>Obsah souboru:</h2>
+            <pre>{{ content }}</pre>
+        {% endif %}
+</body>
+</html>

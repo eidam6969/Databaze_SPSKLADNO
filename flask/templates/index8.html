@@ -1,0 +1,7 @@
+<html lang ="cs">
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles/styles.css') }}">
+    </head>
+    <h1>Jednoduchý interaktivní graf ve Flasku</h1>
+    <div>{{graph_html | safe}}</div>
+</html>
