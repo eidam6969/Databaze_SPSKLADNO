@@ -1,4 +1,4 @@
-from pripojeni import *
+from flask.templates.pripojeni import *
 import mysql.connector
 
 mydb = mysql.connector.connect(
